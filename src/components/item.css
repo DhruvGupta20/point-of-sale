@@ -1,0 +1,49 @@
+.mainItem{
+    display:flex;
+    flex:1;
+    /* height:8vh; */
+    min-height:8vh;
+    /* max-height: 100vh; */
+    /* maxWidth:100 ; */
+    overflow:hidden;
+}
+.displays{
+
+    display:flex;
+    flex:1;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+    padding: 2%;
+    justify-content: left;
+    white-space: nowrap;
+
+
+
+    /* flex:1; */
+    display:block;
+    /* display:flex;/ */
+
+}
+.name{
+    flex:3;
+    font-size: larger;
+    /* float:left; */
+    text-align: center;
+    /* padding: 10%; */
+    /* justify-content: center; */
+}
+.price{
+    flex:5;
+    /* float:left; */
+    
+}
+.functions{
+    /* display: inline-block; */
+    /* float: left; */
+    flex:6;
+    /* white-space: nowrap; */
+}
+.addButton{
+    width: 100%;
+}
